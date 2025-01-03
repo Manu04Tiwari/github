@@ -1,0 +1,20 @@
+{
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    },
+"proxies": [
+    {
+        "id": "example-proxy",
+        "active": true,
+        "protocol": "http",
+        "host": "proxy.example.com",
+        "port": 8080,
+        "username": "proxyuser",
+        "password": "somepassword",
+        "nonProxyHosts": "www.google.com|*.example.com"
+    }
+],
+"java.configuration.updateBuildConfiguration": "automatic",
+"java.compile.nullAnalysis.mode": "automatic"
+
+}
